@@ -1,0 +1,19 @@
+.image-box {
+    width: 70px;
+    margin-left: 15px;
+}
+
+.search-box {
+    width: 18%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+[class^='btn'] {
+    width: 100%;
+    text-align: left;
+}
+
+.form-control::placeholder { 
+    color: white;
+}
