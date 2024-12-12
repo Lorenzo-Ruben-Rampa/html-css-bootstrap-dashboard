@@ -22,6 +22,7 @@
     height: calc(100vh - 92px);
     margin-left: 15%;
     margin-right: 15%;
+    margin-bottom: 9%;
     padding-top: 25px;
     display: flex;
 }
@@ -51,3 +52,38 @@ h1 {
 .white {
     color: white;
 }
+
+/************************************************
+    SOLUZIONE RESPONSIVE
+ ************************************************/
+
+ /* Tablet */
+
+ @media screen and (min-width:577px) and (max-width:768px) {
+
+    #wrapper {
+        flex-direction: column;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+    }
+
+    .interactive-container {
+        margin-left: 0;
+    }
+
+}
+
+     /* Mobile */
+     @media screen and (max-width:576px) {
+
+        #wrapper {
+            flex-direction: column;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+    
+
+        
+    }
