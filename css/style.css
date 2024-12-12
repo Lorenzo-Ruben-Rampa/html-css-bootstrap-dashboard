@@ -37,6 +37,10 @@ h1 {
     font-size: 28px;
 }
 
+h3 {
+    font-size: 20px;
+} 
+
 .interactive-container {
     display: flex;
     flex-wrap: wrap;
@@ -47,6 +51,15 @@ h1 {
 
 .grey {
     color: rgb(82, 81, 81);
+}
+
+.container-responsive {
+    display: flex;
+}
+
+.responsive {
+    flex-basis: 0;
+    flex-grow: 1;
 }
 
 /************************************************
@@ -79,5 +92,9 @@ h1 {
             margin-right: 20px;
             margin-bottom: 20px;
         }
-            
+
+        .container-responsive {
+            flex-direction: column;
+        }
+
     }
