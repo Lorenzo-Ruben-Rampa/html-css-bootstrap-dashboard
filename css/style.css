@@ -39,3 +39,12 @@ h1 {
     display: flex;
     flex-wrap: wrap;
 }
+
+.grey {
+    color: grey;
+}
+
+.white {
+    color: white;
+}
+
